@@ -1,6 +1,7 @@
 package ca.durhamcollege.core;
 
 import ca.durhamcollege.utility.Vector2D;
+import ca.durhamcollege.utility.Vector3D;
 
 import java.util.Scanner;
 import java.util.Vector;
@@ -16,6 +17,7 @@ public class Main {
 
         //instantiates the collection container
         Vector<Vector2D> points = new Vector<Vector2D>();
+
 
         //builds a vector 0f 4 points
         for (int i = 0; i < numOfPoints; i++)
